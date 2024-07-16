@@ -1,0 +1,28 @@
+read about docker ps(option-)
+docs.docker.com -> reference -> clis ->docker clis ->docker ps
+docker run
+-it ->it says i want to interact with this image  so give a teriminal so that i can interact with it
+docker run postgres.
+whenever you use anytype of database like postgres,mysql they have to be passsed on to some certain environment variable
+authorized guy default password id i need it in the form of images
+docker has a special port on which it runs
+if we run two services  on the single port they are going to make conflicts.
+to avoid code conflicts code mapping is addressed
+learn about docker container on docs-consist many things like attach,commit,excute
+
+
+
+
+command prompt
+docker ps -> no container
+
+docker run
+ls -a-> to look all the containers that is to be used. 
+docker run postgres(here it is giving database is unitialized and superuser)
+How to use this image.  $ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres(data base is ready to make the connection).
+(removed --name some-postgres & -d).it spins different containers
+to stop running your container.if you know the name of the container then it is good otherwise we  can use id as well
+docker stop id.
+To remove all exited and created containers but not the Up (running) ones:
+docker container prune -f
+for docker volume-docker volume ls

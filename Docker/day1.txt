@@ -1,0 +1,18 @@
+take images as dvds andee containers as virtual machines.
+docker runs your application on top of the system it doesnt include the entire kernel.
+
+hub.docker.com
+docs.docker.com -> reference->clis->docker image command.
+most pulled images -> busybox
+databases -> postgres
+command prompt -> docker pull postgres
+docker repositories(docker hub)
+
+
+
+
+
+docker -v
+docker pull postgres //now look how image look like.there are couple of ways of doing that
+docker image ls
+
